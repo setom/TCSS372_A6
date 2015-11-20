@@ -155,6 +155,13 @@ void loadFile(cpu * theCpu, int theMemory[]);
  void saveToFile(int theMemory[]);
  
  /*
+* This function allows a user to edit one particular memory location
+* The user will be prompted for a memory address to edit, 
+* Then the user will be prompted for the desired instruction/data to be stored at that location
+*/
+void editMemAtLocation(int theMemory[])
+ 
+ /*
   * Prints the debug information: all registers in the register file,
   * the PC, IR, and status word, and the contents of 16 sections of
   * memory that cen be changed with the memory dump command
