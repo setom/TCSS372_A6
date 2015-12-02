@@ -159,7 +159,7 @@ void loadFile(cpu * theCpu, int theMemory[]);
 * The user will be prompted for a memory address to edit, 
 * Then the user will be prompted for the desired instruction/data to be stored at that location
 */
-void editMemAtLocation(int theMemory[])
+void editMemAtLocation(int theMemory[]);
  
  /*
   * Prints the debug information: all registers in the register file,
